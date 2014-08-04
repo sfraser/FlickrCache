@@ -6,14 +6,12 @@ import com.flickr4java.flickr.REST;
 import com.flickr4java.flickr.auth.Auth;
 import com.flickr4java.flickr.auth.AuthInterface;
 import com.flickr4java.flickr.auth.Permission;
-
 import org.scribe.model.Token;
 import org.scribe.model.Verifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -21,7 +19,6 @@ import java.util.Scanner;
 /**
  * Simple class to get OAuth token and secret
  */
-@Component
 @EnableAutoConfiguration
 public class CmdLineManualAuth implements CommandLineRunner {
 
