@@ -1,0 +1,7 @@
+# rename to application.properties and fill in values below
+
+flickr.apiKey = your Flickr API key
+flickr.apiKey.secret = your Flickr secret
+
+flickr.oauth.token = OAuth token from running CmdLineManualAuth
+flickr.oath.secret = OAuth token secret from running CmdLineManualAuth
